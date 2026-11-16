@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bairro em Dia · Assistente comunitário</title><link rel="stylesheet" href="/style.css"><script src="/chat.js" defer></script></head>
+<body>
+<a class="skip" href="#pergunta">Pular para a pergunta</a>
+<header><a class="brand" href="/" aria-label="Bairro em Dia, início"><span class="logo">b.</span><span>Bairro em Dia<small>TECNOLOGIA PERTO DE VOCÊ</small></span></a><span class="academic">CitizenTech / Projeto acadêmico</span></header>
+<main>
+<aside><span class="eyebrow">MENOS DÚVIDAS. MAIS PARTICIPAÇÃO.</span><h1>Seu bairro começa<br>com a sua voz<span>.</span></h1><p class="intro">Transforme um problema do bairro em um relato claro. Descreva, revise e copie para encaminhar pelo canal que você escolher.</p>
+<div class="topics"><span>01 &nbsp; Iluminação pública</span><span>02 &nbsp; Descarte de lixo</span><span>03 &nbsp; Acessibilidade</span></div>
+<section class="notice"><h2>Sobre este protótipo</h2><p>O assistente prepara um rascunho para você revisar e copiar. Nenhum relato é enviado à prefeitura e nenhum protocolo é gerado.</p></section>
+<details id="manual"><summary>Consultar o manual do projeto <span>↗</span></summary><div id="manual-content">Carregando manual…</div></details>
+<p class="footnote">Pensado para participação comunitária e inclusão digital.</p></aside>
+<section class="chat" aria-label="Assistente do Bairro em Dia">
+<div class="chat-head"><div><span class="online"></span><strong>Vamos conversar</strong><small id="mode">Conectando ao servidor…</small></div><button id="clear" class="text-button" type="button">Limpar conversa</button></div>
+<div id="messages" class="messages" role="log" aria-live="polite" aria-relevant="additions"><article class="bubble bot"><span class="speaker">ASSISTENTE</span><p>Olá! Descreva um problema de iluminação, lixo ou acessibilidade. Vou ajudar você a preparar um relato para revisão.</p></article></div>
+<div class="suggestions" aria-label="Sugestões de perguntas"><button type="button">Há lixo acumulado bloqueando a passagem na praça.</button><button type="button">A lâmpada do poste perto da escola está apagada.</button><button type="button">Como meus dados são usados?</button></div>
+<form id="chat-form"><label for="task">Como posso ajudar?</label><select id="task"><option value="relato">Preparar relato</option><option value="duvida">Tirar dúvida sobre o assistente</option></select><label for="pergunta">Descreva o problema ou sua dúvida</label><div class="input-row"><textarea id="pergunta" rows="2" maxlength="1200" placeholder="Ex.: como descrever uma calçada obstruída?" required></textarea><button id="send" type="submit">Enviar <span aria-hidden="true">↗</span></button></div><div class="input-footer"><span>Evite informar dados pessoais.</span><span id="count">0 / 1200</span></div></form>
+<p id="status" role="status"></p>
+<details class="technical"><summary>Ver última resposta estruturada (JSON)</summary><pre id="json">Envie uma pergunta para ver o resultado.</pre></details>
+</section>
+</main><footer>BAIRRO EM DIA <span>Global Solution · Generative AI for Engineering · 2026</span></footer>
+</body></html>

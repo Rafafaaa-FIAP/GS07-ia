@@ -1,0 +1,25 @@
+{
+  "executado_em_utc": "2026-11-13T22:47:44.701614+00:00",
+  "tipo": "Execução local em modo demo, sem chamada a LLM",
+  "pergunta": "Como registrar um problema de iluminação?",
+  "resultado": {
+    "answer": {
+      "status": "respondido",
+      "resposta": "Para descrever um problema de iluminação no fluxo proposto, informe se a lâmpada está apagada ou piscando e uma referência pública do local. Não toque em fios ou equipamentos. Não há atendimento de emergência neste protótipo. Em situação de risco, procure os canais oficiais locais adequados. O projeto não informa prazos de reparo.",
+      "passos": [],
+      "fontes": [
+        "iluminacao"
+      ],
+      "relato": null
+    },
+    "mode": "demo",
+    "model": null,
+    "sources": [
+      {
+        "id": "iluminacao",
+        "titulo": "Iluminação pública",
+        "texto": "Para descrever um problema de iluminação no fluxo proposto, informe se a lâmpada está apagada ou piscando e uma referência pública do local. Não toque em fios ou equipamentos. Não há atendimento de emergência neste protótipo. Em situação de risco, procure os canais oficiais locais adequados. O projeto não informa prazos de reparo."
+      }
+    ]
+  }
+}

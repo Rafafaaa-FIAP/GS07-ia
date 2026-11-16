@@ -1,0 +1,28 @@
+Execução UTC: 2026-11-13T22:47:44.701614+00:00
+test_answer_requires_source (test_assistant.AssistantTests.test_answer_requires_source) ... ok
+test_demo_does_not_call_api (test_assistant.AssistantTests.test_demo_does_not_call_api) ... ok
+test_http_response_extraction_and_truncation (test_assistant.AssistantTests.test_http_response_extraction_and_truncation) ... ok
+test_input_bounds_and_roles (test_assistant.AssistantTests.test_input_bounds_and_roles) ... ok
+test_missing_context_can_have_no_sources (test_assistant.AssistantTests.test_missing_context_can_have_no_sources) ... ok
+test_missing_key (test_assistant.AssistantTests.test_missing_key) ... ok
+test_network_timeout (test_assistant.AssistantTests.test_network_timeout) ... ok
+test_provider_failures_are_sanitized (test_assistant.AssistantTests.test_provider_failures_are_sanitized) ... ok
+test_rejects_arbitrary_action_and_extra_fields (test_assistant.AssistantTests.test_rejects_arbitrary_action_and_extra_fields) ... ok
+test_rejects_invalid_json_and_markdown (test_assistant.AssistantTests.test_rejects_invalid_json_and_markdown) ... ok
+test_rejects_invalid_types_and_long_steps (test_assistant.AssistantTests.test_rejects_invalid_types_and_long_steps) ... ok
+test_rejects_unknown_source (test_assistant.AssistantTests.test_rejects_unknown_source) ... ok
+test_report_context_and_demo (test_assistant.AssistantTests.test_report_context_and_demo) ... ok
+test_report_schema_and_task (test_assistant.AssistantTests.test_report_schema_and_task) ... ok
+test_retrieval_and_context_boundary (test_assistant.AssistantTests.test_retrieval_and_context_boundary) ... ok
+test_validated_model_response (test_assistant.AssistantTests.test_validated_model_response) ... ok
+test_whitespace_input (test_assistant.AssistantTests.test_whitespace_input) ... ok
+test_chat_demo_roundtrip (test_http.HTTPTests.test_chat_demo_roundtrip) ... ok
+test_cross_origin_blocked (test_http.HTTPTests.test_cross_origin_blocked) ... ok
+test_invalid_body (test_http.HTTPTests.test_invalid_body) ... ok
+test_page_and_assets (test_http.HTTPTests.test_page_and_assets) ... ok
+test_secret_and_path_traversal_not_served (test_http.HTTPTests.test_secret_and_path_traversal_not_served) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.774s
+
+OK

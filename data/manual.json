@@ -1,0 +1,52 @@
+[
+  {
+    "id": "escopo",
+    "titulo": "O que é o Bairro em Dia",
+    "texto": "Bairro em Dia é um assistente CitizenTech para ajudar moradores a escrever relatos claros sobre iluminação, descarte de lixo e barreiras de acessibilidade. A pessoa descreve um problema, recebe um rascunho com categoria, título, descrição e informações faltantes, revisa e pode copiar o texto para um canal de sua escolha. Também há dúvidas sobre o uso do assistente. O programa não envia relatos, não cadastra ocorrências em órgãos públicos, não gera protocolos e não consulta andamentos. Não existe parceria com prefeitura."
+  },
+  {
+    "id": "registro",
+    "titulo": "Preparar e usar um relato",
+    "texto": "Selecione Preparar relato, descreva um problema comunitário sem dados pessoais e clique em Enviar. Revise a categoria, o título, a descrição e as informações faltantes. Use Copiar relato e escolha por conta própria um canal apropriado para encaminhar o texto. O assistente apenas prepara o rascunho; não envia nada, não gera protocolo e não promete solução. Uma referência pública do local pode ajudar, mas não envie endereço residencial, CPF ou telefone."
+  },
+  {
+    "id": "iluminacao",
+    "titulo": "Iluminação pública",
+    "texto": "Para descrever um problema de iluminação no fluxo proposto, informe se a lâmpada está apagada ou piscando e uma referência pública do local. Não toque em fios ou equipamentos. Não há atendimento de emergência neste protótipo. Em situação de risco, procure os canais oficiais locais adequados. O projeto não informa prazos de reparo."
+  },
+  {
+    "id": "lixo",
+    "titulo": "Descarte de lixo",
+    "texto": "Para descrever descarte irregular no fluxo proposto, informe o tipo de resíduo, uma referência pública do local e se há obstrução da passagem. Não manipule material desconhecido. Não há coleta agendada ou calendário municipal disponível no protótipo."
+  },
+  {
+    "id": "acessibilidade",
+    "titulo": "Barreiras de acessibilidade",
+    "texto": "No fluxo proposto, descreva a barreira: calçada obstruída, ausência de rampa ou passagem danificada. Informe uma referência pública e como a passagem é afetada, sem identificar pessoas. A interface do assistente permite navegação por teclado e usa rótulos de formulário. A acessibilidade deve ser validada também com pessoas com deficiência."
+  },
+  {
+    "id": "acompanhamento",
+    "titulo": "Acompanhar solicitações",
+    "texto": "O Bairro em Dia não armazena nem acompanha protocolos. Depois de revisar e copiar o relato, o cidadão decide se e onde vai encaminhá-lo. Se receber protocolo em outro serviço, deve acompanhá-lo naquele serviço. Não há consulta de status ou garantia de prazo aqui."
+  },
+  {
+    "id": "conexao",
+    "titulo": "Internet e falhas",
+    "texto": "A IA por OpenRouter precisa de internet e de uma chave válida no servidor. Se houver falha, o assistente exibe uma mensagem e permite tentar novamente; o manual continua consultável enquanto o servidor local estiver acessível. O modo demonstração usa busca textual local e respostas do manual, sem IA. Nenhuma solicitação comunitária é enviada automaticamente."
+  },
+  {
+    "id": "privacidade",
+    "titulo": "Privacidade e histórico",
+    "texto": "O chat não pede cadastro. As últimas seis mensagens são reenviadas para dar continuidade à conversa. O histórico fica apenas na memória da página e é apagado ao recarregar ou clicar em Limpar conversa. No modo IA, pergunta, histórico e trechos do manual são enviados ao OpenRouter e ao provedor do modelo. Não envie dados pessoais ou sensíveis. O servidor não grava o texto das conversas em arquivo. Ao copiar o relato, o texto fica na área de transferência do dispositivo. Copiar não envia o relato para terceiros."
+  },
+  {
+    "id": "limites",
+    "titulo": "Limites do assistente",
+    "texto": "O assistente responde somente sobre o Bairro em Dia e deve indicar quando o manual não contém a resposta. Ele pode errar, mesmo com fontes e JSON válido. Não executa comandos, não altera dados, não toma decisões sobre pessoas e não promete atendimento público. A base é documentação sintética criada para este projeto acadêmico, sem entrevistas ou resultados de impacto medidos."
+  },
+  {
+    "id": "relatos",
+    "titulo": "Organização do relato comunitário",
+    "texto": "O relato contém categoria (iluminacao, residuos, acessibilidade ou outro), título curto, descrição objetiva baseada no texto fornecido e informações faltantes. Não invente data, endereço, gravidade ou causa. Peça somente detalhes necessários do problema e referência pública do local; não solicite dados pessoais. Os fatos do relato são declarações do usuário, não verificados. A pessoa revisa e copia o rascunho. O assistente não envia nem registra ocorrência. No modo demonstração, o texto original é preservado num modelo fixo sem interpretação por IA."
+  }
+]

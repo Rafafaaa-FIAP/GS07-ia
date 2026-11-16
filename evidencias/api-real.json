@@ -1,0 +1,47 @@
+{
+  "executado_em_utc": "2026-11-13T22:47:52.842987+00:00",
+  "tipo": "Chamada real à API OpenRouter; cenário sintético",
+  "task": "relato",
+  "pergunta": "Há uma lâmpada apagada no poste ao lado da entrada da Praça Exemplo. Ajude a organizar meu relato, sem inventar detalhes.",
+  "resultado": {
+    "answer": {
+      "status": "respondido",
+      "resposta": "Aqui está o rascunho do seu relato sobre a lâmpada apagada:",
+      "passos": [
+        "Revise a categoria e o título.",
+        "Verifique a descrição e as informações faltantes.",
+        "Copie o relato para um canal de sua escolha."
+      ],
+      "fontes": [
+        "escopo",
+        "iluminacao",
+        "registro"
+      ],
+      "relato": {
+        "categoria": "iluminacao",
+        "titulo": "Lâmpada apagada na Praça Exemplo",
+        "descricao": "Há uma lâmpada apagada no poste ao lado da entrada da Praça Exemplo.",
+        "informacoes_faltantes": []
+      }
+    },
+    "mode": "openrouter",
+    "model": "openai/gpt-4o-mini",
+    "sources": [
+      {
+        "id": "escopo",
+        "titulo": "O que é o Bairro em Dia",
+        "texto": "Bairro em Dia é um assistente CitizenTech para ajudar moradores a escrever relatos claros sobre iluminação, descarte de lixo e barreiras de acessibilidade. A pessoa descreve um problema, recebe um rascunho com categoria, título, descrição e informações faltantes, revisa e pode copiar o texto para um canal de sua escolha. Também há dúvidas sobre o uso do assistente. O programa não envia relatos, não cadastra ocorrências em órgãos públicos, não gera protocolos e não consulta andamentos. Não existe parceria com prefeitura."
+      },
+      {
+        "id": "registro",
+        "titulo": "Preparar e usar um relato",
+        "texto": "Selecione Preparar relato, descreva um problema comunitário sem dados pessoais e clique em Enviar. Revise a categoria, o título, a descrição e as informações faltantes. Use Copiar relato e escolha por conta própria um canal apropriado para encaminhar o texto. O assistente apenas prepara o rascunho; não envia nada, não gera protocolo e não promete solução. Uma referência pública do local pode ajudar, mas não envie endereço residencial, CPF ou telefone."
+      },
+      {
+        "id": "iluminacao",
+        "titulo": "Iluminação pública",
+        "texto": "Para descrever um problema de iluminação no fluxo proposto, informe se a lâmpada está apagada ou piscando e uma referência pública do local. Não toque em fios ou equipamentos. Não há atendimento de emergência neste protótipo. Em situação de risco, procure os canais oficiais locais adequados. O projeto não informa prazos de reparo."
+      }
+    ]
+  }
+}
