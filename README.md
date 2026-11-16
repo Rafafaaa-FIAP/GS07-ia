@@ -16,7 +16,7 @@
 | ODS | 10: reduzir barreiras de participação; 11: apoiar comunicação de melhorias no espaço urbano |
 | Indicadores propostos | Tempo para preparar um relato, fidelidade aos fatos e clareza avaliada pelos moradores |
 | Evidência atual | Testes de software, chamada real com cenário sintético e verificação no navegador |
-| Publicação | Execução local; a equipe publicará o repositório GitHub |
+| Publicação | Aplicação de execução local. [Repositório público no GitHub](https://github.com/Rafafaaa-FIAP/GS07-ia) |
 
 O assistente entrega um rascunho utilizável por si só. **Não envia denúncias, não registra ocorrências em órgãos públicos, não gera protocolos e não consulta andamentos.** O cidadão revisa e decide se e onde encaminhar o texto. Não há parceria com prefeitura. A necessidade do público é uma hipótese inspirada no briefing, ainda não validada por entrevistas.
 
@@ -193,20 +193,9 @@ Avaliação futura: comparar tempo e clareza de relatos com e sem o assistente, 
 | 09.3 | Papéis, histórico limitado e indicador de espera |
 | 11 | JSON, Pydantic, regras e proibição de execução arbitrária |
 
-## GitHub e entrega
+## Entrega da disciplina
 
-Publique **o conteúdo desta pasta como raiz** de um repositório público. Não envie `.env`, `.venv/`, `__pycache__/`, materiais das aulas ou o PDF do enunciado. O `.gitignore` exclui os arquivos locais usuais. Confira o conteúdo antes de publicar. O workflow `.github/workflows/tests.yml` executa os testes no GitHub.
-
-```powershell
-git init
-git add .
-git commit -m "Implementa assistente CitizenTech Bairro em Dia"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-git push -u origin main
-```
-
-A publicação fica com a equipe. Entregue o link pelo portal e confirme o acesso sem login. O enunciado específico pede repositório; o briefing geral também trata de MVP público para a entrega integrada das disciplinas. Este pacote é o componente de Generative AI executável localmente.
+O repositório público reúne o código, as instruções de execução local e as evidências da disciplina Generative AI for Engineering. [Consultar os testes no GitHub Actions](https://github.com/Rafafaaa-FIAP/GS07-ia/actions).
 
 ## Referências e autoria
 
